@@ -100,7 +100,6 @@ body {
 
 @media (max-width:860px) {
 
-    
     body {
        font-size: 16px; 
     }
@@ -119,5 +118,7 @@ body {
 
     .pricing-container > * {
         max-width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
