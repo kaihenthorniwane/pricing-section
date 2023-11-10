@@ -99,6 +99,19 @@ body {
 }
 
 @media (max-width:860px) {
+
+    body {
+       font-size: 16px; 
+    }
+    .plan-price{
+        font-size: 36px;
+    }
+    .plan-button{
+        font-size: 20px;
+        padding: 16px 32px;
+        border-radius: 16px;
+    }
+
     .pricing-container {
         flex-direction:column;
     }
@@ -106,5 +119,4 @@ body {
     .pricing-container > * {
         max-width: 100%;
     }
-    
 }
