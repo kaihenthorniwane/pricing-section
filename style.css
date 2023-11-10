@@ -98,7 +98,10 @@ body {
 
 }
 
-@media (max-width:827px) {
+@media (max-width:860px) {
+    .pricing-container {
+        flex-direction:column;
+    }
 
     .pricing-container > * {
         max-width: 100%;
